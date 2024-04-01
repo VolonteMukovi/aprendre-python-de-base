@@ -28,4 +28,4 @@ class personne:
 names=input("entre votre nom")
 ages=int(input("entre votre age"))
 personne1 = personne("volonte",2)
-personne1.decrir(names)
+personne1.decrir(names,ages)
