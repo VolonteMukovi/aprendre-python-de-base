@@ -2,7 +2,7 @@ import os
 import shutil
 
 # Chemin du dossier où vous souhaitez organiser les fichiers
-dossier_cible = "/chemin/vers/votre/dossier"
+dossier_cible = "D:\COURS de PROGRAMMATION"
 
 # Créez les dossiers de A à Z
 lettres = "ABCDEFGHIJKLMNOPQRSTUVWXYZ"
