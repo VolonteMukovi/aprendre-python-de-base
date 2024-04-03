@@ -9,6 +9,7 @@ lettres = "ABCDEFGHIJKLMNOPQRSTUVWXYZ"
 for lettre in lettres:
     chemin_dossier = os.path.join(dossier_cible, lettre)
     os.makedirs(chemin_dossier, exist_ok=True)
+    print(lettre,lettres)
 
 # # Choisissez le dossier source contenant vos fichiers
 # dossier_source = "E:\English musics"
