@@ -1,15 +1,29 @@
 import os
 import shutil
+feilllessimple = ["calptuse","anana","levre"]
+feilllescompose = ["jus","pelouse","avoca"]
 
+fell=input("entre la famiile de votre feillle")
+if(fell=="simple"):
+    for i in range(0,len(feilllessimple)):
+        print("")
+    print("\n", feilllessimple)
+elif(fell=="compose"):
+     for i in range(0,len(feilllescompose)):
+        print(i,feilllescompose)
+
+
+
+# Chemin du dossie
 # Chemin du dossier où vous souhaitez organiser les fichiers
 dossier_cible = "D:\z"
 
 # Créez les dossiers de A à Z
-lettres = "ABCDEFGHIJKLMNOPQRSTUVWXYZ"
-for lettre in lettres:
-    chemin_dossier = os.path.join(dossier_cible, lettre)
-    os.makedirs(chemin_dossier, exist_ok=True)
-    print(lettre,lettres)
+# lettres = "ABCDEFGHIJKLMNOPQRSTUVWXYZ"
+# for lettre in lettres:
+#     chemin_dossier = os.path.join(dossier_cible, lettre)
+#     os.makedirs(chemin_dossier, exist_ok=True)
+#     print(lettre,lettres)
 
 # # Choisissez le dossier source contenant vos fichiers
 # dossier_source = "E:\English musics"
