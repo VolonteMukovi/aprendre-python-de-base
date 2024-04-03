@@ -1,6 +1,6 @@
 age=int(input("entre votre age"))
 compte=0
-for age in range(1,age):
+for age in range(1,age+1):
     compte=compte+100
     compte=compte+2*age               
 
