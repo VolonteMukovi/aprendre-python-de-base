@@ -2,7 +2,7 @@ import os
 import shutil
 
 # Chemin du dossier où vous souhaitez organiser les fichiers
-dossier_cible = "D:\COURS de PROGRAMMATION"
+dossier_cible = "D:\A a Z"
 
 # Créez les dossiers de A à Z
 lettres = "ABCDEFGHIJKLMNOPQRSTUVWXYZ"
@@ -11,7 +11,7 @@ for lettre in lettres:
     os.makedirs(chemin_dossier, exist_ok=True)
 
 # Choisissez le dossier source contenant vos fichiers
-dossier_source = "/chemin/vers/votre/dossier/source"
+dossier_source = "E:\English musics"
 
 # Parcourez les fichiers dans le dossier source
 for nom_fichier in os.listdir(dossier_source):
